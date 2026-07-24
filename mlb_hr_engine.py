@@ -39,7 +39,7 @@ DATA_FILE = os.path.join(CACHE_DIR, "features_master.parquet")
 MODEL_FILE = os.path.join(MODEL_DIR, "v2_production_model.pkl")
 
 # UPDATED GOOGLE SHEET ID
-SHEET_ID = os.environ.get("V2_SHEET_ID", "1N2aUB8oWk_6-o-nt7fqAChhsN0o4xeqAH-tRAxPptDs")
+SHEET_ID = os.environ.get("V2_SHEET_ID", "1l8R0cyNJCe3CIQm9tm3jK6eoDlmhHX7Z0_GwblOfeGQ")
 
 os.makedirs(CACHE_DIR, exist_ok=True)
 os.makedirs(MODEL_DIR, exist_ok=True)
